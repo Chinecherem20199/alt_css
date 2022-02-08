@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Github Hub
+    </title>
+</head>
+<link rel="stylesheet" href="alt.css" />
+
+
+<body>
+
+    <div class="container">
+        <header>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home </a></li>
+                    <li><a href="contact.html">Contact </a></li>
+                    <li><a href="about.html">About </a></li>
+                </ul>
+            </nav>
+            <div>
+                <img src="img/github_logo.gif" class="bordered-image">
+            </div>
+            <p>This is a site to search GitHub for interesting project</p>
+
+
+        </header>
+        <div>
+            <section id="main">
+                <p>In this <em>sample site</em>, we will show a list of <a href="http://github.com">GitHub</a> projects
+                    <spa> and the data
+                    </spa><strong> about projects.</strong> </p>
+
+                <div id="results" class="bordered-image"> This is where results will live .....eventually.
+                </div>
+
+                <form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-image simple-form">
+                    <label for="SearchPhrase">Search Phrase:</label>
+                    <input type="text" name="searchPhrase" id="searchPhrase" /><br />
+                    <input type="checkbox" name="useStars" checked="true" id="useStars" />
+                    <label for="useStars">Use Stars?</label><br />
+
+                    <label for="langChoice" id="langChoice"> Language:
+                        <select name="langChoice"></label>
+                    <option>All</option>
+                    <option selected>Java</option>
+                    <option>JavaScript</option>
+                    <option>C#</option>
+                    <option>Ruby</option>
+                    <option>Pyton</option>
+                    <br />
+                    </select>
+                    <br />
+
+                    <input type="submit" value="search" /><br />
+                </form>
+
+
+            </section>
+        </div>
+        <footer>
+            <div>
+                &copy; 2021 Chinecherem Tina CT
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/JavaScript" src="git.js"></script>
+</body>
+
+</html>
